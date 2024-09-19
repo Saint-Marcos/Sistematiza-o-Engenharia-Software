@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Extensão Limpa Guias",
+  "name": "Oops!... I did it again",
   "version": "1.0",
   "description": "Fecha todas as guias, limpa o histórico dos últimos 15 minutos e abre uma página escolhida pelo usuário.",
   "permissions": ["history", "tabs", "storage"],
