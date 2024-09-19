@@ -6,12 +6,7 @@
   <body>
     <button id="executeAction">Executar Ação</button>
 
-    <script>
-      document
-        .getElementById("executeAction")
-        .addEventListener("click", function () {
-          chrome.runtime.sendMessage({ action: "execute-action" });
-        });
-    </script>
+    <!-- Referencie o script externo -->
+    <script src="popup.js"></script>
   </body>
 </html>

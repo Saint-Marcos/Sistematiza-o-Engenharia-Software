@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Extensão para gerenciar abas e limpar histórico",
   "manifest_version": 3,
-  "permissions": ["storage", "tabs", "history"],
+  "permissions": ["storage", "tabs", "history", "commands"], // Adiciona "commands" aqui
   "action": {
     "default_popup": "popup.html"
   },
