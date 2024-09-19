@@ -16,7 +16,7 @@ chrome.commands.onCommand.addListener(function (command) {
 
     // Abrir uma página escolhida pelo usuário
     chrome.storage.sync.get(["userUrl"], function (result) {
-      let userUrl = result.userUrl || "https://www.google.com";
+      let userUrl = result.userUrl || "https://www.uol.com.br";
       chrome.tabs.create({ url: userUrl });
     });
   }
