@@ -1,22 +1,14 @@
 {
-  "manifest_version": 3,
-  "name": "Oops!...I did it again",
+  "name": "Oops!.. I did it again",
   "version": "1.0",
-  "description": "Fecha todas as guias, limpa o histórico dos últimos 15 minutos e abre uma página escolhida pelo usuário.",
-  "permissions": ["history", "tabs", "storage"],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "commands": {
-    "execute-action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+L"
-      },
-      "description": "Executar a ação de limpar e abrir página"
-    }
-  },
-  "options_page": "options.html",
+  "description": "Extensão para gerenciar abas e limpar histórico",
+  "manifest_version": 3,
+  "permissions": ["storage", "tabs", "history"],
   "action": {
     "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
   }
 }
