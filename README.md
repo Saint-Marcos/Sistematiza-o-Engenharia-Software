@@ -1,6 +1,6 @@
 # Sistematização-Engenharia-Software
 
-Os arquivos aqui presentes foram feitos para que se possa ter uma extensão que ao acionar um atalho limpe o histórico dos últimos 15 minutos.
+Os arquivos aqui presentes (brench MASTER) foram feitos para que se possa ter uma extensão que ao acionar um atalho limpe o histórico dos últimos 15 minutos.
 
 Para fazê-lo funcionar, é necessário seguir os seguintes passos:
 1- salve os arquivos em uma pasta local;
