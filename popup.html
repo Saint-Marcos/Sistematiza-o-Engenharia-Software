@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Extensão Limpa Guias</title>
+    <title>Oops!...</title>
   </head>
   <body>
-    <button id="executeAction">Executar Ação</button>
+    <button id="executeAction">I did it again</button>
 
-    <!-- Referencie o script externo -->
-    <script src="popup.js"></script>
+    <script>
+      document
+        .getElementById("executeAction")
+        .addEventListener("click", function () {
+          chrome.runtime.sendMessage({ action: "execute-action" });
+        });
+    </script>
   </body>
 </html>
